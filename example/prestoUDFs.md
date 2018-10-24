@@ -84,3 +84,10 @@ SELECT TD_PARSE_AGENT(agent)['nonexistentkey'] FROM www_access
 ! in the map returned by <tt>TD_PARSE_AGENT(agent)</tt>.
 ```
 
+# Presto Query FAQs 
+https://support.treasuredata.com/hc/en-us/articles/360001457447-Presto-Query-FAQs
+
+```sql
+-- This retuns 'N/A' if name value is null
+SELECT COALESCE(name, 'N/A') FROM table1
+```
