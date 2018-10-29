@@ -1,5 +1,6 @@
 # Supported Presto and TD Functions
 https://support.treasuredata.com/hc/en-us/articles/360001450828-Supported-Presto-UDFs
+
 ```sql
 SELECT ... WHERE TD_TIME_RANGE(time, '2013-01-01 PDT')                 # OK
 SELECT ... WHERE TD_TIME_RANGE(time, '2013-01-01', '2013-01-02','PDT') # OK
